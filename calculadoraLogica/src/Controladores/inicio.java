@@ -29,18 +29,18 @@ public class inicio {
 				break;
 			case 1:
 				System.out.println("[INFO] - Se ejecuta caso 1");
-				String texto1 = mi.texto1(comunicacionTeclado);
-				String texto2 = mi.texto2(comunicacionTeclado);
+				String texto1 = mi.String1(comunicacionTeclado);
+				String texto2 = mi.String2(comunicacionTeclado);
 				
 				oi.Igualdad(texto1, texto2);
 				
 				break;
 			case 2:
 				System.out.println("[INFO] - Se ejecuta caso 2");
-				String texto1 = mi.texto1(comunicacionTeclado);
-				String texto2 = mi.texto2(comunicacionTeclado);
+				String texto1 = mi.String1(comunicacionTeclado);
+				String texto2 = mi.String2(comunicacionTeclado);
 				
-				oi.Desigualdad(texto1, texto1);
+				oi.Desigualdad(texto1, texto2);
 				
 				break;
 				

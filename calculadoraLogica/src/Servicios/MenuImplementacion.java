@@ -34,7 +34,5 @@ public class MenuImplementacion implements MenuInterfaz {
 	texto2 = System.out.println(comunicacionTeclado);
 		return texto2;
 	}
-	
-
 
 }
